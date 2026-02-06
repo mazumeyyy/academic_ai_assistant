@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# ChromaDB / Vectorstore (generated)
+data/vectorstore/
+chroma.sqlite3
+
+# Uploaded documents (personal / large)
+data/documents/
+
+# Jupyter
+.ipynb_checkpoints/
