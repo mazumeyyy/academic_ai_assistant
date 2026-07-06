@@ -4,8 +4,8 @@ This module manages interactions with the Ollama AI models
 """
 
 from langchain_community.llms import Ollama
-from langchain.chains import RetrievalQA
-from langchain.prompts import PromptTemplate
+from langchain_classic.chains import RetrievalQA
+from langchain_core.prompts import PromptTemplate
 
 class LLMHandler:
     """

@@ -3,6 +3,7 @@ Academic AI Assistant - Main Application
 A complete AI assistant for academic purposes using Ollama
 """
 
+# pyrefly: ignore [missing-import]
 import streamlit as st
 import os
 import time
